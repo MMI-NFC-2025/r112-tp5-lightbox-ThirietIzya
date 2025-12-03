@@ -1,3 +1,31 @@
 /**
 * Lightbox
 */
+img[data-full-img] {
+      cursor: pointer;
+}
+
+#lightbox {
+    }
+#lightbox[open] {
+  animation: ________ 600ms;
+}
+@keyframes ________ {
+  from {
+    transform: scale(0.1);
+  }
+}
+@keyframes ________ {
+  from {
+    opacity: 0;
+  }
+}
+dialog#lightbox::backdrop {
+  
+  animation: _______ 3s;
+}
+
+#lightbox img {
+  
+  
+}
